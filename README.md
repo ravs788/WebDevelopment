@@ -7,3 +7,6 @@ Basic HTML Page with the following elements
 4) Anchor Elements
 5) Images
 6) Comments
+7) Some advanced HTML elements
+
+Created a sample static Portfolio using HTML elements
