@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/doit">
+        <h2>Common Input Types</h2>
+        <p>
+            <label for="username">User Name</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p><label for="color">Color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p><label for="date">Date</label>
+            <input type="date" id="date" name="date">
+        </p>
+        <p>
+            <label for="upload">Upload File</label>
+            <input type="file" id="upload" name="file">
+        </p>
+        <button type="button">Won't Submit</button>
+        <p><label for="email">Email</label>
+            <input type="email" placeholder="email" id="email" name="email">
+        </p>
+
+        <p><label for="number">Number</label>
+            <input type="number" placeholder="number" id="number" name="number">
+        </p>
+        <p><label for="search">Search String</label>
+            <input type="search" placeholder="search string" id="search" name="search">
+        </p>
+        <button>Submit</button>
+        <input type="submit" value="Click Me">
+    </form>
+    <h2>Hijacking Searcing</h2>
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+        <label for="search">Search Text</label>
+        <input type="text" name="q" id="search">
+        <button>Search Google</button>
+    </form>
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <label for="search">Search Text</label>
+        <input type="text" name="search_query" id="search">
+        <button>Search Youtube</button>
+    </form>
+    <h2>Additional Inputs</h2>
+    <form action="tos">
+
+        <p>
+            <input type="checkbox" name="tos" id="tos" value="selected" checked>
+            <label for="tos">Agree to select</label>
+        </p>
+        <p>
+            <input type="radio" id="single" name="size" value="single">
+            <label for="single">Single</label>
+            <input type="radio" id="double" name="size" value="double" checked>
+            <label for="double">Double</label>
+            <input type="radio" id="triple" name="size" value="triple">
+            <label for="triple">Triple</label>
+        </p>
+        <p>
+            <label for="country">Country Selection:</label>
+            <select name="country" id="country">
+                <option value="">---Please choose an option---</option>
+                <option value="india" selected>India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="russia">Russia</option>
+            </select>
+        </p>
+        <p>
+            <label for="age">Age Selector:</label>
+            <input type="range" id="age" min="18" max="67" name="age" step="8" value="34">
+        </p>
+        <p>
+            <label for="comments">Comments</label>
+            <textarea name="Comments" id="comments" cols="30" rows="10" placeholder="Your Comments........."></textarea>
+        </p>
+        <button>Submit Checkbox Selection</button>
+    </form>
+    <form action="/submit">
+        <p>
+            <label for="username">Enter User Name:</label>
+            <input type="text" id="username" name="password" minlength="5" maxlength="12" required>
+        </p>
+        <p>
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <button>Submit Data</button>
+    </form>
+</body>
+
+</html>
