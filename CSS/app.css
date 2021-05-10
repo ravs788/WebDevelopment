@@ -1,0 +1,17 @@
+h1{
+    text-align: right;
+    width: 50%;
+    font-size: 50px;
+    font-family: Futura, Arial, Century Gothic;
+}
+p{
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+h2{
+    font-weight: 600;
+    text-decoration: palevioletred wavy line-through;
+    font-size: 30px;
+}
