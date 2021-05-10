@@ -11,32 +11,37 @@
 <body>
     <h1>Race Registration!</h1>
     <form action="/submit">
-        <p>
+        <div>
             <label for="firstName">First Name</label>
             <input type="text" id="firstName" name="firstName" required>
             <label for="lastName">Last Name</label>
             <input type="text" id="lastName" name="lastName" required>
+        </div>
         <p>
-        <p>Select a Race:</p>
-        <p>
-            <input type="radio" name="racetype" value="small" id="small">
-            <label for="small">Fun Run 5K</label>
+        <div>Select a Race:</div>
+        <div>
+            <div>
+                <input type="radio" name="racetype" value="small" id="small">
+                <label for="small">Fun Run 5K</label>
+            </div>
+            <div>
+                <input type="radio" name="racetype" value="half" id="half">
+                <label for="half">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="racetype" value="full" id="full">
+                <label for="full">Full Marathon</label>
+            </div>
+        </div>
         </p>
         <p>
-            <input type="radio" name="racetype" value="half" id="half">
-            <label for="half">Half Marathon</label>
-        </p>
-        <p>
-            <input type="radio" name="racetype" value="full" id="full">
-            <label for="full">Full Marathon</label>
-        </p>
-        <p>
+        <div>
             <label for="email">Email</label>
             <input type="email" id="email" required>
             <label for="password">Password</label>
             <input type="password" id="password" required>
-        </p>
-        <p>
+        </div>
+        <div>
             <label for="ageSelection">Select Age Group</label>
             <select name="ageGroup" id="ageSelection">
                 <option value="under-18" selected>under 18</option>
@@ -44,10 +49,11 @@
                 <option value="31-50">31-50</option>
                 <option value="50+">50+</option>
             </select>
+        </div>
         </p>
-        <p>
+        <div>
             <button>Register!</button>
-        </p>
+        </div>
     </form>
 
 </body>
