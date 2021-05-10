@@ -11,5 +11,10 @@ Basic HTML Page with the following elements
 
 Created a sample static Portfolio using HTML elements
 
-1) Advanced HTML Elements
+1) Advanced HTML Elements - Forms and Tables
 2) Working on Solution to Marathon Registration
+
+Learnings on CSS
+1) Color and Background-Color Properties
+2) Common Text Properties
+3) Font Sizes and Font Families
