@@ -1,0 +1,176 @@
+body {
+  color: rgb(172, 164, 164);
+  background-color: #f1faee;
+}
+button {
+  font-size: 15px;
+  font-family: cursive;
+  background-color: #1d3557;
+  color: #a8dadc;
+}
+
+h1,
+h2,
+span {
+  text-decoration: darkviolet underline dotted;
+  color: #e63946;
+}
+
+#signup {
+  color: #1d3557;
+  background-color: #a8dadc;
+}
+
+.tag {
+  background-color: #457b9d;
+  color: #f8edeb;
+  font-size: 18px;
+}
+
+/* .vote {
+  background-color: #ffadad;
+  color: #073b4c;
+} */
+
+span a {
+  color: #e63946;
+}
+
+footer a {
+  color: darkgreen;
+}
+
+h2 + button {
+  background-color: chocolate;
+  font-size: 20px;
+}
+
+a:hover {
+  color: purple;
+}
+
+button:hover {
+  background-color: royalblue;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #c4d6bc;
+}
+
+h2::first-letter {
+  font-size: 45px;
+  color: blue;
+}
+p::first-line {
+  color: blue;
+}
+::selection {
+  background-color: brown;
+  text-decoration: cyan underline dotted;
+}
+a::after {
+  content: "♚";
+  font-size: 20px;
+  color: aliceblue;
+}
+a::before {
+  content: "♛";
+  font-size: 20px;
+  color: aliceblue;
+}
+/* * {
+    background-color: cyan;
+} */
+
+/* body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1,h2 {
+    color: #1d3557;
+}
+
+#signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+span {
+    color: #457b9d;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #e63946;
+}
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color: #457b9d;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"]{
+    color: #1d3557;
+}
+
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+button:hover {
+    background-color: olive;
+}
+
+button {
+    background-color: magenta !important;
+} */

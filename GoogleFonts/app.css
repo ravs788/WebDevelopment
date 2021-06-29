@@ -1,0 +1,13 @@
+body {
+  font-family: "Dancing Script", cursive;
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+main {
+  width: 80%;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}

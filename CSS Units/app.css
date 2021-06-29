@@ -1,0 +1,41 @@
+section {
+  background-color: rosybrown;
+  height: 600px;
+  width: 600px;
+}
+
+#ems div {
+  font-size: 0.75em;
+  margin-left: 1em;
+}
+
+#ems {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#ems p {
+  font-size: 0.85em;
+}
+
+#ems button {
+  font-size: 1.5em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  background-color: #34a0a4;
+}
+#ems ul {
+  font-size: 1.25em;
+}
+
+#rems h2 {
+  font-size: 3rem;
+}
+
+#rems ul {
+  font-size: 0.8rem;
+}
+
+#rems button {
+  font-size: 1.5rem;
+}

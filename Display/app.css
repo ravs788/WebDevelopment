@@ -1,0 +1,30 @@
+/* h1 {
+  background-color: cadetblue;
+  border: 2px solid red;
+  display: inline;
+} */
+
+span {
+  background-color: lightsalmon;
+  border: 2px solid blueviolet;
+  width: 200px;
+  padding: 50px;
+  margin: 50px;
+}
+
+h1 {
+  background-color: lightseagreen;
+  border: 2px solid blueviolet;
+  width: 200px;
+  padding: 50px;
+  margin: 50px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: lightslategray;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 30px;
+}
