@@ -23,3 +23,7 @@ Learnings on CSS
 4. CSS Selectors - ID, Class, Descendent, Pseudo Class, Pseudo Elements, Inheritance
 5. CSS Box Model - Width & Height, Padding, Margin, CSS Units
 6. Other Useful CSS Properties - Opacity, Alpha Channel, Position, Transitions, Transform
+7. Responsive CSS & FlexBox - Flex-Direction, Justify-Content, Flex-Wrap, Align-Items, Align-Content, Align-Slef, Flex-Basis, Media Queries.
+8. Pricing Panel Code-along Project
+9. Bootstrap - Containers, Buttons, Typography, Grid, Utilities, Forms, NavBars, Icons erc.
+10. Museum of Candy Project
